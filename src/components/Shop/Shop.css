@@ -1,17 +1,37 @@
-.search-container{
+.search-container {
     background-color: rgba(0, 0, 0, 0.85);
     text-align: center;
     line-height: 40px;
 }
-.search-container input{
+
+.search-container input {
     width: 75%;
 }
-.shop-container{
+
+.shop-container {
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
-.product-container{
+
+.product-container {
     border-right: 1px solid lightgray;
     margin-right: 5px;
     margin-left: 50px;
+}
+
+.pagination {
+    margin: 20px 10px;
+    display: block;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
+
+.pagination .selected {
+    background-color: rgb(64, 64, 247);
+    color: #fff;
 }
